@@ -1,7 +1,7 @@
 import unittest
 from ddt import ddt, data, unpack
 
-from source import add 
+from source import add as func
 
 
 @ddt
@@ -15,22 +15,22 @@ class TestAdd(unittest.TestCase):
         (-1000, -999, -1999),
     )
     @unpack
-    def test_add(self, param1, param2, result) -> None:
-        self.assertEqual(add(param1, param2), result)
+    def test_add_positive(self, param1, param2, result) -> None:
+        self.assertEqual(func.add(param1, param2), result)
         
     @data(
         ('a', 5, 0),
-        (None, None, 1000),
+        (None, None, 0),
         (-2, 4, 2),
         (1001, 67, 0),
         (-5, -4352, 0)
     )
     @unpack
-    def test_add(self, param1, param2, result) -> None:
-        if param1 == None and param2 == None:
-          self.assertEqual(add(), result)
+    def test_add_negative(self, param1, param2, result) -> None:
+        if param1 is None and param2 is None:
+          self.assertEqual(func.add(), result)
         else:
-          self.assertEqual(add(param1, param2), result)
+          self.assertEqual(func.add(param1, param2), result)
 
 if __name__ == '__main__':
     unittest.main()

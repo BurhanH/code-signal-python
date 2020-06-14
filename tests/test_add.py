@@ -6,6 +6,7 @@ from source import add as func
 
 @ddt
 class TestAdd(unittest.TestCase):
+
     @data(
         (6, 5, 11),
         (0, 1000, 1000),
@@ -17,7 +18,7 @@ class TestAdd(unittest.TestCase):
     @unpack
     def test_add_positive(self, param1, param2, result) -> None:
         self.assertEqual(func.add(param1, param2), result)
-        
+
     @data(
         ('a', 5, 0),
         (None, None, 0),
@@ -28,9 +29,10 @@ class TestAdd(unittest.TestCase):
     @unpack
     def test_add_negative(self, param1, param2, result) -> None:
         if param1 is None and param2 is None:
-          self.assertEqual(func.add(), result)
+            self.assertEqual(func.add(), result)
         else:
-          self.assertEqual(func.add(param1, param2), result)
+            self.assertEqual(func.add(param1, param2), result)
+
 
 if __name__ == '__main__':
     unittest.main()

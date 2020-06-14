@@ -1,7 +1,7 @@
 # code-signal-python
 ![Python CI](https://github.com/BurhanH/code-signal-python/workflows/Python%20CI/badge.svg)
 
-My profile on [Codesignal](https://app.codesignal.com/profile/baur_u)
+My profile on [CodeSignal](https://app.codesignal.com/profile/baur_u)
 
 [add function](https://github.com/BurhanH/code-signal-python/blob/master/source/add.py) and it's [tests](https://github.com/BurhanH/code-signal-python/blob/master/tests/test_add.py)
 

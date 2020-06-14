@@ -5,6 +5,6 @@ My profile on [CodeSignal](https://app.codesignal.com/profile/baur_u)
 
 [add function](https://github.com/BurhanH/code-signal-python/blob/master/source/add.py) and it's [tests](https://github.com/BurhanH/code-signal-python/blob/master/tests/test_add.py)
 
-[centuryFromYear function](https://github.com/BurhanH/code-signal-python/blob/master/source/century_from_year.py) and it's [tests](https://github.com/BurhanH/code-signal-python/blob/master/tests/test_century_from_year.py)
+[century_from_year function](https://github.com/BurhanH/code-signal-python/blob/master/source/century_from_year.py) and it's [tests](https://github.com/BurhanH/code-signal-python/blob/master/tests/test_century_from_year.py)
 
-[checkPalindrome function](https://github.com/BurhanH/code-signal-python/blob/master/source/palindrome.py) and it's [tests](https://github.com/BurhanH/code-signal-python/blob/master/tests/test_palindrome.py)
+[check_palindrome function](https://github.com/BurhanH/code-signal-python/blob/master/source/palindrome.py) and it's [tests](https://github.com/BurhanH/code-signal-python/blob/master/tests/test_palindrome.py)

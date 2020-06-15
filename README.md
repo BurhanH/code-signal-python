@@ -9,4 +9,4 @@ My profile on [CodeSignal](https://app.codesignal.com/profile/baur_u)
 
 [check_palindrome function](https://github.com/BurhanH/code-signal-python/blob/master/source/palindrome.py) and it's [tests](https://github.com/BurhanH/code-signal-python/blob/master/tests/test_palindrome.py)
 
-[check_palindrome function](https://github.com/BurhanH/code-signal-python/blob/master/source/adjacent_elements_product.py) and it's [tests](https://github.com/BurhanH/code-signal-python/blob/master/source/adjacent_elements_product.py)
+[adjacent_elements_product](https://github.com/BurhanH/code-signal-python/blob/master/source/adjacent_elements_product.py) and it's [tests](https://github.com/BurhanH/code-signal-python/blob/master/source/adjacent_elements_product.py)
